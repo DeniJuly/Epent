@@ -1,0 +1,49 @@
+.foto-profile {
+    width: 130px;
+    height: 130px;
+    box-shadow: 0px 4px 9px rgba(0,0,0,0.2);
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+.foto-profile img {
+    width: 100%;
+}
+.detail-user {
+    margin-top: 20px;
+    text-align: center;
+}
+.detail-user p.nama {
+    font-family: 'poppins-medium';
+}
+.detail-user p {
+    margin: 0;
+    font-size: 15px;
+}
+
+/* menu */
+.menu-profile {
+    margin-top: 25px;
+}
+.menu-profile .item {
+    width: 100%;
+    box-shadow: 0px 4px 16px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+    align-items: center;
+    margin-top: 15px;
+    cursor: pointer;
+    border: 0;
+    background: #ffffff;
+}
+.menu-profile .item img {
+    width: 25px;
+}
+.menu-profile .item p {
+    margin: 0;
+    font-family: 'poppins-medium';
+    margin-left: 10px;
+    color: rgba(0,0,0,0.7);
+}

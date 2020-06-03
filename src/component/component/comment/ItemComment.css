@@ -1,0 +1,32 @@
+.list-komentar .item-komentar {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.7);
+    padding: 10px 0;
+}
+.list-komentar .item-komentar .foto-profile-komentar {
+    width: 35px!important;
+    height: 35px!important;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.list-komentar .item-komentar .foto-profile-komentar img{
+    width: 100%;
+    height: auto;
+}
+.list-komentar .item-komentar .detail{
+    display: flex;
+    flex-direction: column;
+    flex:6;
+    margin-left: 10px;
+}
+.list-komentar .item-komentar .detail p.nama {
+    font-size: 13px;
+    font-family: 'poppins-medium';
+    margin: 0;
+}
+.list-komentar .item-komentar .detail p {
+    font-size: 13px;
+    font-family: 'poppins-light';
+    margin: 0;
+}

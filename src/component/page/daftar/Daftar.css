@@ -1,0 +1,59 @@
+.logo{
+    margin-top: 30px;
+    text-align: center;
+}
+/* form */
+.card.m-card {
+    margin-top: 30px;
+    border: none;
+    padding: 30px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+label{
+    font-family: 'poppins';
+    font-size: 15px;
+}
+.btn.btn-blue{
+    background: #0779E4;
+    border-radius: 5px;
+    font-family: 'poppins';
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.btn.btn-blue-border{
+    border: 1px solid #0779E4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #0779E4;
+    font-family: 'poppins';
+    font-size: 15px;
+}
+.form-control{
+    font-size: 15px!important;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.motto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins-light';
+    font-size: 15px;
+    margin: 20px 0;
+    color: #0779E4;
+}
+.motto p{
+    margin: 0;
+}
+.motto .nama-app{
+    font-family: 'poppins-medium';
+    font-size: 16px;
+}
