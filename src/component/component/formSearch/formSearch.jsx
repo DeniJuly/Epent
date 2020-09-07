@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 // icon
 import Search from '../../../asset/icon/search.svg';
 import { Redirect, withRouter } from 'react-router-dom';
+import { connect } from 'react-redux';
 
 class FormSearch extends Component{
     state ={
@@ -33,4 +34,5 @@ class FormSearch extends Component{
         )
     }
 }
-export default withRouter(connect(mapStateToProps)(FormSearch));
+
+export default FormSearch;
